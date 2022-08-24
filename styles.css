@@ -1,0 +1,63 @@
+body {
+    background-image: url('./img/fondodesk2.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.avatar {
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -80px;
+}
+
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-text {
+    margin: 0;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: rgb(209, 98, 183);
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: rgb(209, 98, 183);
+    font-size: 25px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
